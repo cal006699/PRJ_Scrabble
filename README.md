@@ -7,3 +7,4 @@
 - la partie se termine lorsque les joueurs ont proposé chacun 10 mots. Le nom du gagnant est alors affiché par 
   l’application. Les 10 mots du joueur gagnant ainsi que le mot qui a rapporté le plus grand nombre de points sont 
   affichés également
+https://www.figma.com/make/p2KJwtdMmoBWrRC3DRQHUs/Site-Scrabble?t=eA8ohSLmpMzJObf7-20&fullscreen=1
