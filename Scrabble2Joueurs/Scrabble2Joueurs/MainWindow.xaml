@@ -1,0 +1,142 @@
+﻿<Window x:Class="Scrabble2Joueurs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scrabble2Joueurs"
+        mc:Ignorable="d"
+        Title="JEU DU SCRABBLE - MODE 2 JOUEURS" Height="450" Width="800">
+    <Window.Resources>
+        <!-- Style de base -->
+        <Style x:Key="BaseStyle">
+            <Setter Property="Control.FontWeight" Value="DemiBold" />
+            <Setter Property="Control.Margin" Value="5" />
+        </Style>
+        <!-- Style pour TextBox basé sur le style de base -->
+        <Style TargetType="TextBox" BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Padding" Value="1" />
+            <Setter Property="Background" Value="#FFF0EBEB" />
+            <Setter Property="Height" Value="22"/>
+        </Style>
+        <!-- Style pour Label basé sur le style de base -->
+        <Style TargetType="Label" BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Control.FontSize" Value="14" />
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="Auto"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+        <!-- Style pour TextBlock basé sur le style de base -->
+        <Style TargetType="TextBlock" BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Background" Value="#FFF0EBEB" />
+            <Setter Property="Height" Value="22"/>
+        </Style>
+        <!-- Style pour Button basé sur le style de base -->
+        <Style TargetType="Button" BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Background" Value="#FF6892B3" />
+            <Setter Property="Foreground" Value="#FFF0EBEB"  />
+            <Setter Property="Height" Value="22"/>
+            <Setter Property="Width" Value="100"/>
+        </Style>
+        <Style x:Key="StyleBorder" TargetType="Border">
+            <Setter Property="BorderBrush" Value="#FF6892B3"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+    </Window.Resources>
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="debutp" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+            <Border x:Name="debut"/>
+        </Grid>
+
+
+        <Grid x:Name="DebutPartie1" Grid.Row="0" Grid.Column="0" >
+            <Label Content="Entrez le nom du Joueur 1" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" />
+            <TextBox x:Name="txtNomJ1" HorizontalAlignment="Center" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" BorderThickness="0,0,0,0" Background="AntiqueWhite"/>
+        </Grid>
+
+        <Button x:Name="btnCommencer" Content="COMMENCER" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,43,0,0" Click="btnCommencer_Click" Grid.Column="1" />
+
+
+        <Grid x:Name="DebutPartie2" Grid.Row="0" Grid.Column="2" >
+            <Label Content="Entrez le nom du Joueur 2" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" />
+            <TextBox x:Name="txtNomJ2" HorizontalAlignment="Center" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" BorderThickness="0,0,0,0" Background="AntiqueWhite" />
+        </Grid>
+
+
+        <Grid x:Name="Partie" Grid.Row="1" Grid.Column="0">
+            <!-- Joueur 1 -->
+            <Border x:Name="BordureJoueur1" Style="{StaticResource StyleBorder}" >
+                <Grid x:Name="PartieJoueur1" Background="Aqua" Margin="0,0,0,-6">
+                    <TextBlock x:Name="J1" Text="" Margin="0,5,0,0" Background="Aqua" HorizontalAlignment="Center" VerticalAlignment="Top" Width="164" TextAlignment="Center" />
+                    <TextBlock x:Name="J1Txt" Text="" Margin="0,32,0,0" Background="Aqua" HorizontalAlignment="Center" VerticalAlignment="Top" Width="164" TextAlignment="Center"/>
+                    <Label x:Name="mot" Content="Saisir votre mot:" Margin="0,144,0,71" HorizontalAlignment="Center" VerticalAlignment="Top" Width="140"/>
+                    <Label x:Name ="list" Content="votre liste de lettre:" Margin="10,59,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140"/>
+                    <Label x:Name ="mm1" Content="votre meilleur mot" Margin="10,103,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140"/>
+                    <TextBlock x:Name="lst1" Text="" Margin="0,83,0,0" Background="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextAlignment="Center" Height="31"/>
+                    <TextBlock x:Name="Meilleurmot1" Text="" Margin="0,127,0,0" Background="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextAlignment="Center" Height="24"/>
+                    <TextBox x:Name="txtMotJ1" HorizontalAlignment="Center" Margin="0,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" BorderThickness="0,0,0,0" />
+                    <Button x:Name="ValideJ1"  Content="Valider le mot" Margin="0,196,0,27" HorizontalAlignment="Center" VerticalAlignment="Top" Width="140" Click="btnJ1_Click"/>
+
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Explication, Fonctionnement -->
+        <Grid x:Name="interface" Grid.Row="1" Grid.Column="1">
+            <Border x:Name="Bordure" Style="{StaticResource StyleBorder}" >
+                <Grid x:Name="PartieJeu" Background="Magenta" Margin="0,0,0,-8">
+                    <TextBlock x:Name ="Point"
+                               HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextWrapping="Wrap" Height="117"  Background="Magenta" Margin="0,5,0,0"><Run Text="Valeur en points "/><Run Language="fr-fr" Text="pour les l"/><Run Text="ettres                                                 1 point"/><Run Language="fr-fr" Text=":"/><Run Text=" A, E, I, L, N, O, R, S, T, U                                                     2 points"/><Run Language="fr-fr" Text=":"/><Run Text=" D, G, M                                                     3 points"/><Run Language="fr-fr" Text=":"/><Run Text=" B, C, P                                                     4 points"/><Run Language="fr-fr" Text=":"/><Run Text=" F, H, V                                                     8 points"/><Run Language="fr-fr" Text=":"/><Run Text=" J, Q                                                     10 points"/><Run Language="fr-fr" Text=":"/><Run Text=" K, W, X, Y, Z"/></TextBlock>
+                    <TextBlock x:Name="Tuto"
+                             HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextWrapping="Wrap" Height="113" Margin="0,127,0,0" Background="Magenta"><Run Text="Comment jouer :                                                 -Utilisez vos lettres pour former un mot"/><Run Language="fr-fr" Text="."/><Run Text="                                                 -Chaque lettre a une valeur en points"/><Run Language="fr-fr" Text="."/><Run Text="                                                 -Les tours alternent automatiquement"/><Run Language="fr-fr" Text="."/><Run Text="                                                 -Chaque joueur a 10 tours"/><Run Language="fr-fr" Text="."/><Run Text="                                                 -De nouvelles lettres sont piochées après chaque mot"/><Run Text="."/></TextBlock>
+                </Grid>
+            </Border>
+        </Grid>
+
+
+        <Grid x:Name="partieJ2" Grid.Row="1" Grid.Column="2">
+            <!-- Joueur 2 -->
+            <Border x:Name="BordureJoueur2" Style="{StaticResource StyleBorder}" >
+                <Grid x:Name="PartieJoueur2" Background="LightPink" Margin="0,0,0,-9">
+                    <TextBlock x:Name="J2" Text="" Margin="0,5,0,0" Background="LightPink" HorizontalAlignment="Center" VerticalAlignment="Top" Width="164" TextAlignment="Center" />
+                    <TextBlock x:Name="J2Txt" Text="" Margin="0,32,0,0" Background="LightPink" HorizontalAlignment="Center" VerticalAlignment="Top" Width="164" TextAlignment="Center"/>
+                    <Label x:Name="mot2" Content="Saisir votre mot:" Margin="0,144,0,71" HorizontalAlignment="Center" VerticalAlignment="Top" Width="140"/>
+                    <Label x:Name ="list2" Content="votre liste de lettre:" Margin="10,59,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140"/>
+                    <Label x:Name ="mm2" Content="votre meilleur mot" Margin="10,103,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140"/>
+                    <TextBlock x:Name="lst2" Text="" Margin="0,83,0,0" Background="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextAlignment="Center" Height="28"/>
+                    <TextBlock x:Name="Meilleurmot2" Text="" Margin="0,127,0,0" Background="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextAlignment="Center" Height="24"/>
+                    <TextBox x:Name="txtMot" HorizontalAlignment="Left" Margin="61,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" BorderThickness="0,0,0,0" />
+                    <Button x:Name="Validemot"  Content="Valider le mot" Margin="61,196,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Click="btnJ2_Click"/>
+
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Stat Joueur 1 -->
+        <Grid x:Name="StatJ1" Grid.Row="2" Grid.Column="0">
+            <TextBlock x:Name="nbmot1" Text="" Background="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextAlignment="Center" Height="71" Margin="0,5,0,0"/>
+        </Grid>
+        <!-- Stat Partie -->
+        <Grid x:Name="StatP" Grid.Row="2" Grid.Column="1">
+            <TextBlock x:Name="StatPartie" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Width="199" TextWrapping="Wrap" Height="76"/>
+        </Grid>
+        <!-- Stat Joueur 2 -->
+        <Grid x:Name="StatJ2" Grid.Row="2" Grid.Column="2">
+            <TextBlock x:Name="nbmot2" Text="" Background="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Width="235" TextAlignment="Center" Height="71" Margin="0,5,0,0"/>
+        </Grid>
+        <Grid x:Name="FinPartie" Grid.Row="2">
+
+        </Grid>
+    </Grid>
+</Window>
