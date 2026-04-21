@@ -36,7 +36,7 @@ namespace Scrabble2Joueurs
 
         private void btnCommencer_Click(object sender, RoutedEventArgs e)
         {
-            if (txtNomJ1.Text != txtNomJ2.Text && txtNomJ1.Text != null && txtNomJ2.Text != null)
+            if (txtNomJ1.Text != txtNomJ2.Text && txtNomJ1.Text != "" && txtNomJ2.Text != "")
             {
                 J1.Text = txtNomJ1.Text;
                 J2.Text = txtNomJ2.Text;
@@ -96,58 +96,59 @@ namespace Scrabble2Joueurs
 
         private void btnJ2_Click(object sender, RoutedEventArgs e)
         {
-            if (toursJ2 == 10)
+            
+            
+            if (verifMot(txtMot.Text, l2) == true)
             {
+                j2.AjouterMot(txtMot.Text);
+                MessageBox.Show("Bien joué vous avez maintenant " + j2.GetTotalPoints() + " points");
+                BordureJoueur1.IsEnabled = true;
+                BordureJoueur2.IsEnabled = false;
+                l2 = RetirerLettres(txtMot.Text, l2);
+                l2 = lettrePlein(l2);
+                lst2.Text = read_lst(l2);
+                StatPartie.Text = StatPa();
+                toursJ2++;
+                J2Txt.Text = toursJ2 + toursTxt;
+                Meilleurmot2.Text = j2.MotMeilleur();
+                nbmot2.Text = j2.GetNbMots() + " mots joués \n Votre liste de mot: " + read_lst(j2.GetLesMots());
+                if (toursJ1 == 10)
+                {
 
-                if (j1.GetTotalPoints() > j2.GetTotalPoints())
-                {
-                    MessageBox.Show("Partie terminée, Le joueur " + j1.GetNom() + " a remporté la partie");
-                    StatPartie.Text = "Vainqueur: " + j1.GetNom();
-                }
-                else
-                {
-                    if (j1.GetTotalPoints() < j2.GetTotalPoints())
+                    if (j1.GetTotalPoints() > j2.GetTotalPoints())
                     {
-                        MessageBox.Show("Partie terminée, Le joueur " + j2.GetNom() + " a remporté la partie");
-                        StatPartie.Text = "Vainqueur: " + j2.GetNom();
+                        MessageBox.Show("Partie terminée, Le joueur " + j1.GetNom() + " a remporté la partie");
+                        StatPartie.Text = "Vainqueur: " + j1.GetNom();
                     }
                     else
                     {
-                        MessageBox.Show("Partie terminée, Les joueurs sont à égalité");
-                        StatPartie.Text = "Match nul";
+                        if (j1.GetTotalPoints() < j2.GetTotalPoints())
+                        {
+                            MessageBox.Show("Partie terminée, Le joueur " + j2.GetNom() + " a remporté la partie");
+                            StatPartie.Text = "Vainqueur: " + j2.GetNom();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Partie terminée, Les joueurs sont à égalité");
+                            StatPartie.Text = "Match nul";
+                        }
                     }
-                }
 
+                }
             }
             else
             {
-                if (verifMot(txtMot.Text, l2) == true)
-                {
-                    j2.AjouterMot(txtMot.Text);
-                    MessageBox.Show("Bien joué vous avez maintenant " + j2.GetTotalPoints() + " points");
-                    BordureJoueur1.IsEnabled = true;
-                    BordureJoueur2.IsEnabled = false;
-                    l2 = RetirerLettres(txtMot.Text, l2);
-                    l2 = lettrePlein(l2);
-                    lst2.Text = read_lst(l2);
-                    StatPartie.Text = StatPa();
-                    toursJ2++;
-                    J2Txt.Text = toursJ2 + toursTxt;
-                    Meilleurmot2.Text = j2.MotMeilleur();
-                    nbmot2.Text = j2.GetNbMots() + " mots joués \n Votre liste de mot: " + read_lst(j2.GetLesMots());
-                }
-                else
-                {
-                    MessageBox.Show("Une Erreur s'est produite. Veuillez saisir les lettres de votre liste de lettres.");
-                }
+                MessageBox.Show("Une Erreur s'est produite. Veuillez saisir les lettres de votre liste de lettres.");
             }
+            
         }
+            
 
         private Random rnd = new Random();
         public List<string> lettrePlein(List<string> lst)
         {
 
-            string alphabet = "AAAAABCCCDDDEEEEEFGHIIIIIJKLLMMNNOOOOOPQRSTUUUUVWXYZ";
+            string alphabet = "AAAAAAABCCCDDDEEEEEEEFGHIIIIIJKLLMMNNOOOOOPQRSTUUUUVWXYZ";
             while (lst.Count < 7)
             {
                 // On choisit une lettre au hasard dans l'alphabet
