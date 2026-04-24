@@ -1,5 +1,5 @@
-# PRJ_Scrabble##
-##Principe du mode 2 joueurs Scrabble : 
+# PRJ_Scrabble
+## Principe du mode 2 joueurs Scrabble : 
 - au début de la partie, le prénom de chaque joueur est saisi
 - les joueurs jouent à tour de rôle. L’application désigne par tirage au sort le joueur qui doit commencer
 - le joueur propose un mot composé avec les 7 lettres tirées au sort par l’application 
