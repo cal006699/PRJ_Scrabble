@@ -1,0 +1,28 @@
+CREATE DATABASE IF NOT EXISTS BDD_SCRABBLE;
+-- 1. Création de la table Joueur
+CREATE TABLE Joueur (
+    id_joueur INT PRIMARY KEY,
+    nom_joueur VARCHAR(255) NOT NULL
+);
+
+-- 2. Création de la table Partie
+CREATE TABLE Partie (
+    id_partie INT PRIMARY KEY,
+    date DATE,
+    score1 INT,
+    score2 INT,
+    joueur1 INT,
+    joueur2 INT,
+    FOREIGN KEY (joueur1) REFERENCES Joueur(id_joueur),
+    FOREIGN KEY (joueur2) REFERENCES Joueur(id_joueur)
+);
+
+-- 3. Création de la table d'association 'jouer'
+CREATE TABLE jouer (
+    id_joueur INT,
+    id_partie INT,
+    Attribute1 VARCHAR(255),
+    PRIMARY KEY (id_joueur, id_partie),
+    FOREIGN KEY (id_joueur) REFERENCES Joueur(id_joueur),
+    FOREIGN KEY (id_partie) REFERENCES Partie(id_partie)
+);

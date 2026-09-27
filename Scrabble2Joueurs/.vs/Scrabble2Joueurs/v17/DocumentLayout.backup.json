@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\",
+  "WorkspaceRootPath": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\vu\\desktop\\prj_scrabble\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|z:\\b2_slam_girard\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurs\\utilitaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\utilitaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurs\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F7816D7-EBCA-4B1A-9E78-0759865ABE64}|Scrabble2JoueursTests\\Scrabble2JoueursTests.csproj|Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurstests\\joueurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7816D7-EBCA-4B1A-9E78-0759865ABE64}|Scrabble2JoueursTests\\Scrabble2JoueursTests.csproj|solutionrelative:scrabble2joueurstests\\joueurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scrabble2Joueurs\\Utilitaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scrabble2Joueurs\\Joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Scrabble2Joueurs\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T07:53:19.942Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml",
-              "RelativeToolTip": "Scrabble2Joueurs\\MainWindow.xaml",
+              "DocumentMoniker": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\UI\\MainWindow.xaml",
+              "ToolTip": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml",
+              "RelativeToolTip": "Scrabble2Joueurs\\UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-25T07:51:07.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Utilitaire.cs",
-              "DocumentMoniker": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Utilitaire.cs",
-              "ToolTip": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
-              "RelativeToolTip": "Scrabble2Joueurs\\Utilitaire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "JoueurTests.cs",
+              "DocumentMoniker": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2JoueursTests\\JoueurTests.cs",
+              "RelativeDocumentMoniker": "Scrabble2JoueursTests\\JoueurTests.cs",
+              "ToolTip": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2JoueursTests\\JoueurTests.cs",
+              "RelativeToolTip": "Scrabble2JoueursTests\\JoueurTests.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T07:51:03.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T06:32:31.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Joueur.cs",
-              "DocumentMoniker": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Joueur.cs",
-              "ToolTip": "C:\\Users\\Vu\\Desktop\\PRJ_Scrabble\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
-              "RelativeToolTip": "Scrabble2Joueurs\\Joueur.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "ToolTip": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAIwAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T07:51:00.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T07:53:19.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilitaire.cs",
+              "DocumentMoniker": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Utilitaire.cs",
+              "ToolTip": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\Utilitaire.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:51:03.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Joueur.cs",
+              "DocumentMoniker": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Joueur.cs",
+              "ToolTip": "Z:\\B2_SLAM_GIRARD\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\Joueur.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:51:00.76Z"
             }
           ]
         }

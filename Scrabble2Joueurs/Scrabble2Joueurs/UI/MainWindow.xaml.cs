@@ -53,8 +53,9 @@ namespace Scrabble2Joueurs
                 lst2.Text = read_lst(l2);
                 BordureJoueur2.IsEnabled = false;
                 BordureJoueur1.IsEnabled = true;
-                debut.IsEnabled = false;
-
+                btnCommencer.IsEnabled = false;
+                txtNomJ1.IsEnabled = false;
+                txtNomJ2.IsEnabled = false;
             }
             else
             {
@@ -147,8 +148,8 @@ namespace Scrabble2Joueurs
         private Random rnd = new Random();
         public List<string> lettrePlein(List<string> lst)
         {
-
-            string alphabet = "AAAAAAABCCCDDDEEEEEEEFGHIIIIIJKLLMMNNOOOOOPQRSTUUUUVWXYZ";
+            //liste de charactère 
+            string alphabet = "AIAEAABACDDDEEEAEFGAHIIJKLLMIMNANOEOOCOOPQARSTUIUICUUAVWEXYZ";
             while (lst.Count < 7)
             {
                 // On choisit une lettre au hasard dans l'alphabet
