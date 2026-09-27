@@ -11,8 +11,21 @@ namespace Scrabble2Joueurs.Data
     {
         public static MySqlConnection Commit()
         {
-            MySqlConnection connex = null;
-            string chainConnex = 
+            
+            string chainConnex = "Server=localhost;Database=bdd_scrabble;Uid=calvinvu;Pwd=Soleil@";
+
+            MySqlConnection connex = new MySqlConnection(chainConnex);
+
+            try
+            {
+                connex.Open();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erreur lors de l'ouverture de la connexion : " + ex.Message);
+            }
+
+            return connex;
         }
     }
 }
