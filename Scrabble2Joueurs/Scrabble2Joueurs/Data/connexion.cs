@@ -12,7 +12,7 @@ namespace Scrabble2Joueurs.Data
         public static MySqlConnection Commit()
         {
             
-            string chainConnex = "Server=localhost;Database=bdd_scrabble;Uid=calvinvu;Pwd=Soleil@";
+            string chainConnex = "Server=localhost;Database=bdd_scrabble;Uid=calvin_vu;Pwd=bonjoure";
 
             MySqlConnection connex = new MySqlConnection(chainConnex);
 

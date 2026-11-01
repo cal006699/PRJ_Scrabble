@@ -1,26 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\",
+  "WorkspaceRootPath": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\documents\\projet_scolaire_btssio\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F7816D7-EBCA-4B1A-9E78-0759865ABE64}|Scrabble2JoueursTests\\Scrabble2JoueursTests.csproj|C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurstests\\joueurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\ui\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\ui\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\data\\partiedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\data\\partiedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\class\\classaffichage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\class\\classaffichage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\ui\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\ui\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\data\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\data\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|c:\\users\\calvi\\desktop\\prj_scrabble\\scrabble2joueurs\\scrabble2joueurs\\data\\joueurdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\data\\joueurdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7816D7-EBCA-4B1A-9E78-0759865ABE64}|Scrabble2JoueursTests\\Scrabble2JoueursTests.csproj|C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurstests\\joueurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F7816D7-EBCA-4B1A-9E78-0759865ABE64}|Scrabble2JoueursTests\\Scrabble2JoueursTests.csproj|solutionrelative:scrabble2joueurstests\\joueurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurs\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\scrabble2joueurs\\utilitaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AC525-DFBC-4437-B272-F68F7F25F050}|Scrabble2Joueurs\\Scrabble2Joueurs.csproj|solutionrelative:scrabble2joueurs\\utilitaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +55,161 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JoueurTests.cs",
-              "DocumentMoniker": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2JoueursTests\\JoueurTests.cs",
-              "RelativeDocumentMoniker": "Scrabble2JoueursTests\\JoueurTests.cs",
-              "ToolTip": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2JoueursTests\\JoueurTests.cs",
-              "RelativeToolTip": "Scrabble2JoueursTests\\JoueurTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ClassAffichage.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Class\\ClassAffichage.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Class\\ClassAffichage.cs",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Class\\ClassAffichage.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\Class\\ClassAffichage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:59:04.715Z",
+              "WhenOpened": "2026-11-01T03:26:41.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\UI\\Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\Window1.xaml.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\UI\\Window1.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T03:22:46.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml",
+              "RelativeToolTip": "Scrabble2Joueurs\\UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-01T03:19:56.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\Window1.xaml",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\UI\\Window1.xaml",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\Window1.xaml",
+              "RelativeToolTip": "Scrabble2Joueurs\\UI\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-01T03:19:50.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAIA1wPkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T03:05:19.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartieDAO.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Data\\PartieDAO.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Data\\PartieDAO.cs",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Data\\PartieDAO.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\Data\\PartieDAO.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowE0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T02:35:03.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JoueurDAO.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Data\\JoueurDAO.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Data\\JoueurDAO.cs",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Data\\JoueurDAO.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\Data\\JoueurDAO.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T02:34:56.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "connexion.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Data\\connexion.cs",
+              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Data\\connexion.cs",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Data\\connexion.cs",
+              "RelativeToolTip": "Scrabble2Joueurs\\Data\\connexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T02:34:47.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JoueurTests.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2JoueursTests\\JoueurTests.cs",
+              "RelativeDocumentMoniker": "Scrabble2JoueursTests\\JoueurTests.cs",
+              "ToolTip": "C:\\Users\\calvi\\Desktop\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2JoueursTests\\JoueurTests.cs",
+              "RelativeToolTip": "Scrabble2JoueursTests\\JoueurTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:59:04.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Scrabble2Joueurs\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAiwIIAAAAZAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAwwHUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T14:18:51.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\MainWindow.xaml",
-              "RelativeToolTip": "Scrabble2Joueurs\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-31T14:18:51.227Z",
+              "DocumentIndex": 11,
+              "Title": "Utilitaire.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
+              "ToolTip": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T14:18:51.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Utilitaire.cs",
-              "DocumentMoniker": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Utilitaire.cs",
-              "ToolTip": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Utilitaire.cs",
-              "RelativeToolTip": "Scrabble2Joueurs\\Utilitaire.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T14:18:51.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Joueur.cs",
               "DocumentMoniker": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
-              "RelativeDocumentMoniker": "Scrabble2Joueurs\\Joueur.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
               "ToolTip": "C:\\Users\\calvi\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
-              "RelativeToolTip": "Scrabble2Joueurs\\Joueur.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDkAAAAJAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Documents\\PROJET_Scolaire_BTSSIO\\PRJ_Scrabble\\Scrabble2Joueurs\\Scrabble2Joueurs\\Joueur.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAACcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T14:18:51.53Z"
+              "WhenOpened": "2026-03-31T14:18:51.53Z",
+              "EditorCaption": ""
             }
           ]
         }

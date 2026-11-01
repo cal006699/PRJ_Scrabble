@@ -93,9 +93,12 @@ namespace Scrabble2Joueurs
             else
             {
                 MessageBox.Show("Une Erreur c'est produite. Veuillez saisir les lettres de votre liste de lettre.");
+                
             }
             
         }
+        
+        
 
         private void btnJ2_Click(object sender, RoutedEventArgs e)
         {
@@ -115,9 +118,10 @@ namespace Scrabble2Joueurs
                 J2Txt.Text = toursJ2 + toursTxt;
                 Meilleurmot2.Text = j2.MotMeilleur();
                 nbmot2.Text = j2.GetNbMots() + " mots joués \n Votre liste de mot: " + read_lst(j2.GetLesMots());
-                if (toursJ1 == 10)
+                if (toursJ1 == 5)
                 {
-                    EnregistrerFinDePartie(j1.GetNom(), j1.GetTotalPoints(), j2.GetNom(), j2.GetTotalPoints());
+                    // L'enregistrement de la partie se fait  à la fin
+                    PartieDAO.InsertPartie(j1.GetNom(), j1.GetTotalPoints(), j2.GetNom(), j2.GetTotalPoints());
                     if (j1.GetTotalPoints() > j2.GetTotalPoints())
                     {
                         MessageBox.Show("Partie terminée, Le joueur " + j1.GetNom() + " a remporté la partie");
@@ -194,7 +198,6 @@ namespace Scrabble2Joueurs
 
         private List<string> RetirerLettres(string mot, List<string> lst)
         {
-
             string motUP = mot.ToUpper();
 
             foreach (char lettre in motUP)
@@ -225,80 +228,22 @@ namespace Scrabble2Joueurs
             {
                 StatPartie = "Les joueurs sont à égalité avec chacun " + j1.GetTotalPoints() + " points";
             }
+         
             return StatPartie;
         }
-
-        public void EnregistrerFinDePartie(string nomJ1, int score1, string nomJ2, int score2)
+        private void btnHistorique_Click(object sender, RoutedEventArgs e)
         {
-            using (MySqlConnection conn = connexion.Commit())
-            {
-                if (conn != null && conn.State == System.Data.ConnectionState.Open)
-                {
-                    // récuperer ou inserer le J 1  et 2
-                    int idJ1 = GetOrInsertJoueur(conn, nomJ1);
-                    int idJ2 = GetOrInsertJoueur(conn, nomJ2);
-
-                    // Insérer la partie dans la table Partie
-                    string queryPartie = "INSERT INTO Partie (date, score1, score2, joueur1, joueur2) VALUES (@date, @s1, @s2, @j1, @j2)";
-                    int idPartie = 0;
-                    using (MySqlCommand cmd = new MySqlCommand(queryPartie, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@date", DateTime.Now.ToString("yyyy-MM-dd"));
-                        cmd.Parameters.AddWithValue("@s1", score1);
-                        cmd.Parameters.AddWithValue("@s2", score2);
-                        cmd.Parameters.AddWithValue("@j1", idJ1);
-                        cmd.Parameters.AddWithValue("@j2", idJ2);
-                        cmd.ExecuteNonQuery();
-
-                        // Récupérer l'ID de la partie qui vient d'être créée
-                        idPartie = Convert.ToInt32(cmd.LastInsertedId);
-                    }
-
-                    // Remplir la table d'association pour lier les deux joueurs à cette partie
-                    InsererTableJouer(conn, idJ1, idPartie);
-                    InsererTableJouer(conn, idJ2, idPartie);
-                }
-            }
+            // Ouvre la fenêtre de l'historique
+            Scrabble2Joueurs.UI.Window1 historiqueWin = new Scrabble2Joueurs.UI.Window1();
+            historiqueWin.Show();
+            this.Close(); // Ferme la fenêtre de jeu actuelle
         }
-
-        // vérifie si le joueur existe, le crée s'il n'existe pas, et retourne son id_joueur
-        private int GetOrInsertJoueur(MySqlConnection conn, string nom)
+        private void btnRejouer_Click(object sender, RoutedEventArgs e)
         {
-            // Vérifier si le joueur existe déjà
-            string querySelect = "SELECT id_joueur FROM Joueur WHERE nom_joueur = @nom";
-            using (MySqlCommand cmd = new MySqlCommand(querySelect, conn))
-            {
-                cmd.Parameters.AddWithValue("@nom", nom);
-                object result = cmd.ExecuteScalar();
-                if (result != null && result != DBNull.Value)
-                {
-                    return Convert.ToInt32(result);
-                }
-            }
-
-            // il n'existe pas, on l'insère
-            string queryInsert = "INSERT INTO Joueur (nom_joueur) VALUES (@nom)";
-            using (MySqlCommand cmd = new MySqlCommand(queryInsert, conn))
-            {
-                cmd.Parameters.AddWithValue("@nom", nom);
-                cmd.ExecuteNonQuery();
-
-                // Retourne l'ID 
-                return Convert.ToInt32(cmd.LastInsertedId);
-            }
-        }
-
-        // remplit la table d'association
-        private void InsererTableJouer(MySqlConnection conn, int idJoueur, int idPartie)
-        {
-            string query = "INSERT INTO jouer (id_joueur, id_partie, Attribute1) VALUES (@idJ, @idP, @att)";
-            using (MySqlCommand cmd = new MySqlCommand(query, conn))
-            {
-                cmd.Parameters.AddWithValue("@idJ", idJoueur);
-                cmd.Parameters.AddWithValue("@idP", idPartie);
-                cmd.Parameters.AddWithValue("@att", DBNull.Value); // Remplace par une valeur si besoin
-                cmd.ExecuteNonQuery();
-            }
+            // Ouvre une nouvelle instance de la partie
+            MainWindow nouvellePartie = new MainWindow();
+            nouvellePartie.Show();
+            this.Close(); // Ferme la partie actuelle
         }
     }
 }

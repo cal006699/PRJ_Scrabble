@@ -1,13 +1,18 @@
-CREATE DATABASE IF NOT EXISTS BDD_SCRABBLE;
--- 1. Création de la table Joueur
+-- Supprime l'ancienne base si elle existe pour repartir sur du propre
+DROP DATABASE IF EXISTS BDD_SCRABBLE;
+
+CREATE DATABASE BDD_SCRABBLE;
+USE BDD_SCRABBLE;
+
+-- 1. Création de la table Joueur (avec AUTO_INCREMENT)
 CREATE TABLE Joueur (
-    id_joueur INT PRIMARY KEY,
+    id_joueur INT AUTO_INCREMENT PRIMARY KEY,
     nom_joueur VARCHAR(255) NOT NULL
 );
 
--- 2. Création de la table Partie
+-- 2. Création de la table Partie (avec id_partie en AUTO_INCREMENT aussi)
 CREATE TABLE Partie (
-    id_partie INT PRIMARY KEY,
+    id_partie INT AUTO_INCREMENT PRIMARY KEY,
     date DATE,
     score1 INT,
     score2 INT,
@@ -21,8 +26,13 @@ CREATE TABLE Partie (
 CREATE TABLE jouer (
     id_joueur INT,
     id_partie INT,
-    Attribute1 VARCHAR(255),
+    victoire INT,
     PRIMARY KEY (id_joueur, id_partie),
     FOREIGN KEY (id_joueur) REFERENCES Joueur(id_joueur),
     FOREIGN KEY (id_partie) REFERENCES Partie(id_partie)
 );
+
+-- 4. Configuration de l'utilisateur local (calvin_vu)
+CREATE USER IF NOT EXISTS 'calvin_vu'@'localhost' IDENTIFIED BY 'Soleil@';
+GRANT ALL PRIVILEGES ON BDD_SCRABBLE.* TO 'calvin_vu'@'localhost';
+FLUSH PRIVILEGES;
