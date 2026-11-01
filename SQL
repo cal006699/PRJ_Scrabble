@@ -33,6 +33,6 @@ CREATE TABLE jouer (
 );
 
 -- 4. Configuration de l'utilisateur local (calvin_vu)
-CREATE USER IF NOT EXISTS 'calvin_vu'@'localhost' IDENTIFIED BY 'Soleil@';
+CREATE USER IF NOT EXISTS 'calvin_vu'@'localhost' IDENTIFIED BY 'bonjoure';
 GRANT ALL PRIVILEGES ON BDD_SCRABBLE.* TO 'calvin_vu'@'localhost';
 FLUSH PRIVILEGES;
