@@ -36,4 +36,4 @@ Application de bureau développée en **C# (WPF)** avec une persistance des donn
 
 1. Clone le dépôt sur ta machine :
    ```bash
-   git clone https://gitlab.com/ton-compte/prj-scrabble.git
+   git clone https://github.com/cal006699/PRJ_Scrabble.git
